@@ -1,0 +1,33 @@
+.title{
+    background-color: indigo;
+    color: rgb(223, 221, 221);
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+   
+}
+
+
+.item, .descripcion {
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+
+.descripcion{
+    text-align: center;
+    color: rgb(0, 126, 143);
+    background-color: rgb(29, 29, 29);
+
+}
+
+.platillos{
+    font-size: 30px;
+    color: indigo;
+    font-weight: bold;
+}
+
+.img{
+    height: auto;
+    width: 28px;
+}
