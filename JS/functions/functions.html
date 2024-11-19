@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>functions</title>
+    </head>
+    <body>
+        <script>
+           function add7(suma){
+            return suma +7;
+           }
+           function multiply(num1, num2){
+            return num1 * num2
+           }
+           function capitalize(word){
+            const firstLetter = word.charAt(0)
+            const firstLetterCap = firstLetter.toUpperCase()
+            const remainingLetters = word.slice(1)
+            const capitalizedWord = firstLetterCap + remainingLetters
+            return capitalizedWord;
+           }
+           function lastLetter(word2){
+            
+            const lastLetter = word2.charAt(3)
+            return lastLetter;
+           }
+
+
+
+
+           let val1 =5, val2=4;
+           let number = 7;
+           let palabra = "perros"
+           let ultletra = "tazo"
+           console.log(add7(number))
+           console.log(multiply(val1, val2))
+           console.log(capitalize(palabra))
+           console.log(lastLetter(ultletra))
+        </script>
+    </body>
+</html>
